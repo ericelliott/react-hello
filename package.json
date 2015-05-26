@@ -1,0 +1,34 @@
+{
+  "name": "react-hello",
+  "version": "0.0.0",
+  "description": "An editable email field",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "babel-node examples/server.js",
+    "clean": "rm -rf build && mkdir build",
+    "lint": "eslint source",
+    "build": "npm run clean && browserify -s Hello source/index.js -t babelify > build/index.js",
+    "build-example": "npm run clean && browserify -s Hello source/index.js -t babelify > build/index.js",
+    "test": "echo 'No tests defined!'",
+    "check": "npm run lint && npm run build && npm test && npm outdated --depth 0",
+    "validate": "npm run lint && npm test && npm outdated --depth 0"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "user profile"
+  ],
+  "author": "Eric Elliott",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "babelify": "^6.1.1",
+    "browserify": "^10.2.1",
+    "eslint": "^0.21.2",
+    "express": "^4.12.4"
+  },
+  "dependencies": {
+    "lodash": "^3.9.1",
+    "react": "^0.13.2"
+  }
+}
