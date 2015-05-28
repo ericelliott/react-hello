@@ -6,4 +6,4 @@ Written for ["Baby’s First Reaction: A 'Hello, World' Example for React"](http
 
 For more, check out my new book, ["Learn JavaScript Isomorphic App Development with Node, ES6 & React"](leanpub.com/learn-javascript-react-nodejs-es6/)
 
-An ["Learn JavaScript with Eric Elliott"](https://ericelliottjs.com) - A series of online JavaScript courses featuring short video lessons & lots of interactive exercises.
+["Learn JavaScript with Eric Elliott"](https://ericelliottjs.com) - A series of online JavaScript courses featuring short video lessons & lots of interactive exercises.
