@@ -8,7 +8,6 @@ let app = express();
 const staticPath = path.resolve('build/');
 
 app.get('/', function (req, res) {
-  let title = 'React!';
   res.send(`
     <!DOCTYPE html>
     <html>
@@ -20,15 +19,7 @@ app.get('/', function (req, res) {
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.2/react.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
-        <script src="/index.js"></script>
-        <script type="text/jsx">
-          var word = 'puppy';
-
-          React.render (
-            <Hello word={ word } />,
-            document.getElementById('content')
-          );
-        </script>
+        <script src="/app-client.js"></script>
       </body>
     </html>
   `);
