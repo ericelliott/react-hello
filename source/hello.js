@@ -20,13 +20,10 @@ const helloFactory = function ({ React }) {
       })
     };
 
-    Hello.defaultProps = {
-      word: 'world'
-    };
-
     return {
 
       props, // set props
+
 
       componentDidUpdate () {
         this.refs.wordInput.getDOMNode().focus();

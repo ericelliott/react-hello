@@ -7,7 +7,7 @@ import helloFactory from '../source/hello';
 const Hello = helloFactory({ React });
 /*eslint-enable no-unused-vars*/
 
-let word = 'puppy';
+let word = 'world';
 let mode = 'display';
 let render;
 
