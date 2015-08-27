@@ -1,5 +1,4 @@
 /*global React */
-'use strict';
 
 import helloFactory from '../source/hello';
 
