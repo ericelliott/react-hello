@@ -6,6 +6,6 @@ Written for ["Baby’s First Reaction: A 'Hello, World' Example for React"](http
 
 ## STATUS
 
-This introduction explores an old version of React (0.14, if memory serves). There are better ways to do this now.
+This introduction explores an old version of React (0.13). There are better ways to do this now.
 
 To keep up with modern JavaScript and React, subscribe to ["Learn JavaScript with Eric Elliott"](https://ericelliottjs.com) - A series of online JavaScript courses featuring short video lessons & lots of interactive exercises.
